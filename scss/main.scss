@@ -1,0 +1,34 @@
+@import './utils/color-and-bp';
+@import './utils/text-accent';
+@import './base';
+
+/* buttons & links*/
+@import './components/buttons';
+@import './components/links';
+
+/* oher */
+@import './other/section';
+@import './other/chef-cards';
+@import './other/format-cards';
+@import './other/form-politic';
+@import './other/form';
+
+/* header */
+@import './components/header';
+
+/* sections */
+@import './components/hero-section';
+@import './components/advantages-section';
+@import './components/traditions-section';
+@import './components/chefs-section';
+@import './components/formats-section';
+@import './components/contacts-section';
+@import './components/mobile-menu';
+
+/* footer */
+@import './components/footer';
+
+/* modal window */
+@import './components/modal-window';
+
+/*# sourceMappingURL=main.css.map */

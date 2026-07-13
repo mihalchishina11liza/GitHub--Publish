@@ -1,0 +1,39 @@
+.button {
+  padding: 16px 32px;
+  color: #faf4ea;
+  background-color: var(--primary-green);
+  border: 2px solid var(--primary-green);
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover {
+    color: var(--secondary-green);
+    background-color: transparent;
+  }
+}
+
+.arrow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--primary-dark);
+  fill: var(--primary-dark);
+  transition: background-color 0.3s, fill 0.3s;
+
+  &:hover {
+    background-color: var(--primary-dark);
+    fill: var(--primary-light);
+  }
+
+  &:last-child {
+    transform: rotate(180deg);
+  }
+}

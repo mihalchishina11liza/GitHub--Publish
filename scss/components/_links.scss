@@ -1,0 +1,13 @@
+.link {
+  color: var(--primary-light);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--primary-green);
+}
+
+.politic-link {
+  color: var(--primary-dark);
+}
